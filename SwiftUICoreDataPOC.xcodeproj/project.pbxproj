@@ -14,6 +14,8 @@
 		128C93F92471C4690097A784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128C93F82471C4690097A784 /* Assets.xcassets */; };
 		128C93FC2471C4690097A784 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128C93FB2471C4690097A784 /* Preview Assets.xcassets */; };
 		128C93FF2471C4690097A784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 128C93FD2471C4690097A784 /* LaunchScreen.storyboard */; };
+		128C94072471C5530097A784 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C94062471C5530097A784 /* TodoItem.swift */; };
+		128C940B2471D2510097A784 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C940A2471D2510097A784 /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		128C93FB2471C4690097A784 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		128C93FE2471C4690097A784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		128C94002471C4690097A784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		128C94062471C5530097A784 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		128C940A2471D2510097A784 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				128C94002471C4690097A784 /* Info.plist */,
 				128C93F32471C4600097A784 /* SwiftUICoreDataPOC.xcdatamodeld */,
 				128C93FA2471C4690097A784 /* Preview Content */,
+				128C94062471C5530097A784 /* TodoItem.swift */,
+				128C940A2471D2510097A784 /* ToDoItemView.swift */,
 			);
 			path = SwiftUICoreDataPOC;
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128C94072471C5530097A784 /* TodoItem.swift in Sources */,
+				128C940B2471D2510097A784 /* ToDoItemView.swift in Sources */,
 				128C93F52471C4600097A784 /* SwiftUICoreDataPOC.xcdatamodeld in Sources */,
 				128C93F02471C4600097A784 /* AppDelegate.swift in Sources */,
 				128C93F72471C4600097A784 /* ContentView.swift in Sources */,
